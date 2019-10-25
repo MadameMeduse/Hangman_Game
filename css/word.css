@@ -1,0 +1,28 @@
+.word {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 5vmin 0;
+}
+
+.word__letter {
+  font-size: 5vmin;
+  border-radius: 2vmin;
+  padding: 1vmin;
+  margin: 0.5vmin;
+  width: 7vmin;
+  height: 7vmin;
+  background-image: linear-gradient(to top, #f65171 0%, #3d4961 51%, #232526 100%);
+  color: white;
+  text-shadow: 0.3vmin 0.1vmin 0.4vmin #052544;
+  box-shadow: 0 0.3vmin 0.6vmin rgba(0, 0, 0, 0.16), 0 0.3vmin 0.6vmin rgba(0, 0, 0, 0.23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.word__letter:hover {
+  background-position: right center;
+}
+
+/*# sourceMappingURL=word.css.map */

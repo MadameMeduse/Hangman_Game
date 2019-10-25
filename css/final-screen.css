@@ -1,0 +1,48 @@
+.final-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../images/final-screen.jfif");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 7vmin;
+  color: white;
+  transition: opacity 1s;
+}
+
+.final-screen__header {
+  background: rgba(0, 0, 0, 0.66);
+  box-shadow: 0 0.3vmin 0.6vmin rgba(0, 0, 0, 0.16), 0 0.3vmin 0.6vmin rgba(0, 0, 0, 0.23);
+  text-shadow: 0.3vmin 0.1vmin 0.4vmin #052544;
+  padding: 2vmin;
+}
+
+.final-screen--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.final-screen__button {
+  margin-top: 3vmin;
+  border: none;
+  background: none;
+  padding: 2vmin;
+  color: black;
+  font-weight: bold;
+  font-size: 4vmin;
+  border-radius: 2vmin;
+  cursor: pointer;
+  transition: transform 0.3s;
+  background: rgba(255, 255, 255, 0.88);
+}
+.final-screen__button:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=final-screen.css.map */

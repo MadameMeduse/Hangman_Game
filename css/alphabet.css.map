@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"alphabet.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/alphabet.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EACA;;AAEA;EANF;IAOI;;;;AAIJ;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAGA;EApBF;IAqBI;IACA;IACA;;;AAGF;EAEE;EACA;EACA;;AAGF;EACE","file":"alphabet.css"}
