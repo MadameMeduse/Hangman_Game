@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <canvas width="1500" height="1500" class="canvas js-canvas"></canvas>
+
+        <div class="lives js-lives"></div>
+
+        <div class="word js-word"></div>
+
+        <div class="alphabet js-alphabet"></div>
+
+        <div class="final-screen final-screen--hidden js-final-screen">
+            <div class="final-screen__header js-final-screen__header"></div>
+            <button class="final-screen__button js-final-screen__button">PLAY AGAIN</button>
+        </div>
+
+
+        <div class="loading js-loading">
+            Loading new game...
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
