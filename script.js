@@ -167,11 +167,11 @@
   const fetchNewWord = async () => {
     try {
       const response = await fetch(
-        "http://hangman.career.wecode.stage.wecode.agency/api/v1/word/random"
+        "https://random-word-api.herokuapp.com//word?number=1"
       );
       const json = await response.json();
 
-      return json.word;
+      return json[0];
     } catch {
       alert("Something went wrong!");
     }
