@@ -1,6 +1,6 @@
 # Hangman_Game
 
-http://hangman.pss.ogicom.pl/
+<a href="https://madamemeduse.github.io/Hangman_Game/"></a>
 
 <h1>Architektura aplikacji:</h1>
 <ol>
@@ -55,7 +55,6 @@ http://hangman.pss.ogicom.pl/
     <li>Wrzucenie projektu na github na sam koniec zamiast na początku (to było bardzo nierozsądne) </li>
     <li>Gra źle wyświetla się na poziomym widoku komórki </li>
     <li>Canva hangman wygląda brzydko, gdybym miała więcej czasu wyglądałaby lepiej</li>
-    <li>API nie posiada certyfikatu stąd nie da się odpalić strony na github pages i byłam zmuszona wrzucić na hosting</li>
  </ul>
 
  <li> 
