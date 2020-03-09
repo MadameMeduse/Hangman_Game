@@ -1,6 +1,6 @@
 # Hangman_Game
 
-<a href="https://madamemeduse.github.io/Hangman_Game/"></a>
+<a href="https://madamemeduse.github.io/Hangman_Game/">Click here to play</a>
 
 <h1>Architektura aplikacji:</h1>
 <ol>
